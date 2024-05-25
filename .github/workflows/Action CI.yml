@@ -3,9 +3,6 @@ name: Action CI
 on:
   push:
     branches: [ main ]
-    paths-ignore:
-      - 'README.md'
-      - 'LICENSE'
 
 jobs:
   Windows-x64:
